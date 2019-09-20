@@ -125,6 +125,7 @@ label diguedong:
     scene bg main house day
     play music h_bgm_omae fadein 3.0
     #INSERT PSYCHO
+    #maybe an option about carrie having a remote?? oh good christ..
     show h_holly a_1 at centerleft
     show h_holly a_1:
         easeout 4.5 offscreenright
@@ -142,7 +143,7 @@ label diguedong:
     "Coming into view ahead was Tina Koya Collage, a well respected academy for above average students."
     cassie "Hey Holly!"
     "I look around to spot her"
-    cassie "holllllyyyyy!!!!!"
+    cassie "Holllllyyyyy!!!!!"
     "There she is! Cassie and Scarlet is standing 50 meters away waving happily"
     show cassie a_0 at right
     show scarlet a_0 at Position(xpos = (placement_of(cassie).xpos - 0.15), ypos = 0.6)
@@ -158,7 +159,16 @@ label diguedong:
     holly "Yeah.. I might've had a few many to drink. Did you get home safe yesterday?"
     "I should really try to change the subject.. "
     show scarlet a_11
-    scarlet "o Holly you needn't be embarrassed, although you usually don't pounce on Cassie like a tiger hungering for meat"
+    scarlet "O Holly you needn't be embarrassed, although you usually don't pounce on Cassie like a tiger hungering for meat"
     holly "uhhh i.. don-don't."
-    cassie "Scarlet WHY UE BULY"
+    cassie "Don't worry Holly she's only teasing you."
+    think "I really need to calm down."
+    holly ".. Shall we head to class perhaps?"
+    scene black with fade
+    scene bg natschool classroom day
+    show h_holly b_0 at left
+    show carla a_0 at center:
+        zoom 0.4
+        ypos 0.52 xpos 0.7
+    "Math wasn't particularly difficult for me, I usually breeze through the math lectures pretty easily, the same couldn't be said about Cassie. I've been trying to help her study during the weekends to little avail."
     placeholder
