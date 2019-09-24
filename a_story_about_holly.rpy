@@ -575,9 +575,26 @@ label diguedong:
     show h_holly b_1
     holly "She does seem to remember me from when we met years ago..."
     h_kisaragi "I keep telling you that you're worth knowing Holly, I certainly like to see you every week. There's absolutely no reason why Haley wouldn't feel the same way."
-    show h_holly blush b1 at faceleft
+    show h_holly blush b1
     h_kisaragi "So, there's your homework for the week." 
     h_kisaragi "Practice letting people get to know you a little bit more, think about how you're going to deal with the Erin situation and then next week you can tell me all about it."
+    scene black with fade
+    #Make this part more intressting, add images.
+    nvl clear
+    nvl_narrator "Following ms.Steel's advice, I made much more of an effort to let people in, not just over the week between that initial session and the next, but over the next few months as well. And not just with Haley, with everyone else too."
+    nvl_narrator "It was almost impossible at first, but gradually I managed to speak more and more and volunteered information about myself without other people needing to prize it out of me. It had definitely made life at home better, Bethany and Brad had known me long enough that they knew what I was like, but for Haley I must have seemed like a completely different person to the one she met back in June."
+    nvl_narrator "For the first time in years I actually enjoyed Christmas. Normally the thought of so much social activity filled me with nothing but anxiety and I spent a considerable amount of time wishing the whole festive period away."
+    nvl_narrator "But this year it was just...well...fun. Our {q}House Mates Only{/q} Christmas party was great and really set the whole holiday up, it was nice for there to be four of us. Haley had slotted in perfectly with us and it was a welcome change to have someone on my team while playing games and someone to sit up with once Bethany and Brad went to bed. My family even commented on how much better I seemed during the few days I spent with them."
+    nvl_narrator "The only problem was Erin."
+    nvl clear
+    nvl_narrator "I had tried for a while to give her the benefit of the doubt and to open up around her...much to Bethany's disgust...and had even ventured as far as telling her about my counseling sessions, but she just wasn't interested. She only showed an interest when Haley was around."
+    nvl_narrator "Jayne was also surprised by my continued relationship with Erin, she was a frequent topic of conversation during our sessions and had yet to be a positive subject. I think personally she agreed with Bethany and felt that I should end things with her, but due to the nature of our relationship she was professionally unable to give her true opinion."
+    nvl_narrator "I hadn't seen Erin over Christmas, but had given her her gift just after. She hadn't got me a present and again failed to give me anything during the sex afterwards, instead she had let me get her off and then spent the next half hour roundly abusing the thoughtful book Haley had bought me."
+    nvl_narrator "I saw red at that point and for the first time in six months bit back. It didn't go down well to say the least. I left the house to a torrent of verbal abuse, which ended in her telling me she wished I was dead, and then spent the evening in Bethany's arms while she calmed me down and wiped the angry tears from my face."
+    scene black with fade
+    scene bg connie kitchen day
+    "On the Monday after the argument with Erin, I walked in after a long, boring day at work to find Brad, Mark, Erin and Haley sat at our kitchen table passing a bottle of whiskey between themselves."
+
 
     scene h_asset sorrow
     #Lower xalign -> more to left
