@@ -14,7 +14,7 @@ label diguedong:
     $ katrina.name = "Girl"
 
     #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    "Beginning goes here, explain why the fuck holly is in an apartment etc"
+    title "Session"
     scene bg corporate lobby small
     play music h_bgm_issues
     outfit h_holly casual
@@ -436,6 +436,150 @@ label diguedong:
     show h_brad a_1 at centerright
     show h_haley a_12 at right, faceleft
     with easeinright
+    show h_bethany a_9
+    h_bethany "He says, whilst walking through the door with a gorgeous brunette woman I don't know."
+    "For extra effect she brushes my hair away from my face and kisses my forehead."
+    brad "Oh shit, sorry babe. This is Haley, my friend from UNI and the answer to our roommate problem. Haley, this is my girl Bethany."
+    show h_bethany a_3
+    h_bethany "Hi Haley, I hope you know what you're in for, taking care of these two."
+    h_haley "It's been ok so far." 
+    show h_haley a_13
+    h_haley "I don't think I've upset the boat too much in the eight hours since I moved in."
+    holly "You haven't." 
+    "I say to the floor as I wonder exactly how much Tommy's told her about my situation at the moment."
+    h_bethany "Give it a few days and you'll be tearing your hair out."
+    "I envy Bethany so much sometimes, she's so free and easy around new people while I'm an uptight, nervous wreck."
+    brad "We're not that bad."
+    h_bethany "That's what you think." 
+    h_bethany "Hi baby. What're we doing for dinner?"
+    brad "You fancy going out? Give us a chance to bond and all that crap."
+    h_bethany "That'd be great." 
+    brad "We should ask Erin to come too...don't you think Holly?"
+    show h_holly b_4
+    show h_bethany a_8
+    "I could've died on the spot."
+    "Bethany whips her head around so fast we hear her neck crick."
+    h_bethany "What?!?!"
+    holly "I'll tell you later." 
+    "I mumble, deliberately avoiding her eyes."
+    "I'll text her and let her know where to meet us then." 
+    "Brad continues, using my lack of an answer as a yes and pulling out his phone, once again completely oblivious to the situation around him."
+    "Bethany rounds on him a fraction of a second later shooting daggers. I use this as an out and escape back upstairs, followed closely by Haley."
+    hide h_haley
+    hide h_holly
+    with easeoutleft
+    scene bg connie bedroom clean day
+    show h_haley a_9 at centerleft
+    show h_holly a_3 at centerright
+    with easeinright
+    h_haley "She really doesn't like Erin then?"
+    holly "Doesn't like is a mild understatement. She can't stand her...and Beth loves everyone."
+    h_haley "Do you like her? Erin, that is."
+    holly "Ermmm... I think, I mean, I don't really know her that well, but I guess she's attractive and she likes me so..."
+    show h_haley a_15
+    h_haley "So that's enough for you?"
+    holly "I don't know," 
+    show h_holly a_8
+    holly "I haven't really dated for a while. Maybe someone who I know is definitely interested is a good place to start?"
+    "She shakes her head and stands up straight again."
+    h_haley "I'm sure if women knew you were available they'd be queueing round the block to get a date with you...and you never know, you might actually like one of them."
+    holly "Maybe..."
+    h_haley "Trust me," 
+    show h_haley a_2
+    h_haley "you're gorgeous Holly. Inside and out if I remember rightly. You could have whoever you wanted..."
+    scene black with fade
+    "Dinner was awful."
+    scene bg bar dusk
+    nvl clear
+    nvl_narrator "Erin met us at the restaurant and continued her customary tradition of shoving her tongue down my throat which had me instantly embarrassed and Bethany instantly annoyed. One look was all it took for me to know I was in for a serious talk with her as soon as we got home."
+    nvl_narrator "We got through the main course in virtual silence, every time anyone asked Haley a question Erin would talk over her and try to block her from the conversation, it got so awkward that silence was the best solution."
+    nvl_narrator "A little later on, Haley braved speaking again invited me to join her for a climbing session next time she went, I thought it sounded interesting and agreed to go...Erin on the other hand, saw red and stormed off outside to 'make a call'...I think I was supposed to follow her and reassure her that despite us only spending one night together, she was my one and only, but to be honest, I was just happy for the break. The atmosphere was so tense you could have cut the air with a knife, and even though I hadn't invited her, I felt like the whole situation Erin had caused was my fault."
+    nvl_narrator "The evening was rounded off nicely by her leaving just before we did, skipping out on her share of the bill."
+    scene black with fade
+    scene bg connie bedroom clean night
+    "After we came home Haley went straight to her room, Bethany and Brad went into an argument in the kitchen about me and Erin, I knew they'd both acted with my best interests at heart, but I fell asleep wishing that they'd all just let me suffer alone in my bubble until I figured things out. I hated that I'd caused so much trouble."
+    title "Session"
+    scene bg corporate lobby small
+    play music h_bgm_issues
+    show h_holly b_7 at centerleft
+    show h_kisaragi a_3 at centerright
+    h_kisaragi "How have you been since our last session?"
+    holly "Erm, ok I guess. We've got a new house mate...and we nearly had World War Three the first night after she moved in."
+    h_kisaragi "Are the two things related?"
+    holly "Um, no...not really."
+    h_kisaragi "Ok, well why don't we start with World War Three and end with a hopefully more positive story?"
+    "I take a deep breath, feeling me entire chest puff up"
+    h_kisaragi "I know it's hard Holly,"
+    show h_kisaragi a_8
+    h_kisaragi "but I can't help you if you don't speak."
+    "I look down at my hands and twiddle my thumbs, weighing up my options."
+    h_kisaragi "I need you to be honest too Holly,"
+    h_kisaragi "I don't care if you get upset and we have to use a whole box of tissues to get through it. Omitting details will only lead to bigger issues building up."
+    h_kisaragi "Ready?"
+    show h_holly b_8
+    holly "Yes.."
+    "Fifteen fraught minutes later I've told ms.Steel everything...about the party...Erin...dinner...Erin...and the after-dinner showdown when we got home...that also concerned Erin."
+    show h_holly b_9
+    show h_kisaragi a_9
+    h_kisaragi "Wow."
+    holly "Now you see why I'm not sociable. Things go tits-up when I leave the house."
+    show h_kisaragi c_1
+    h_kisaragi "How did you feel, about going out and then spending the night with Erin?"
+    holly "Erm.."
+    holly "..."
+    holly "Well, at first I felt nervous and awkward about going out, and even though I know Mark really well it was hard to relax. Hence why I decided that drink was a good idea...and why I ended up with Erin."
+    h_kisaragi "What about your night with Erin, how did that make you feel?"
+    holly "It didn't really," 
+    holly "It's like, I was there but I wasn't at the same time. I didn't really enjoy the experience. I just did what I needed to do for it to be over."
+    h_kisaragi "Do you think that's healthy?"
+    holly "Definitely not."
+    "I reply quickly, trying to find the words she wants to hear before she asks me any further questions on the topic"
+    holly "But there's only me that can get myself out of it and fix the situation...and I need to tell Brad to back off"
+    show h_kisaragi b_4
+    h_kisaragi "And what is it important to remember?"
+    holly "To give myself a break...and that change doesn't happen overnight."
+    show h_kisaragi b_6
+    h_kisaragi "Good." 
+    h_kisaragi "Now, let's move on to more positive conversation. How's Haley working out as a new house mate, is she fitting in well with the three of you?"
+    holly "Well, she's a friend of Brad's from University and I think they've lived together before, so he's fine, then Bethany gets on with everyone so she's fine too."
+    h_kisaragi "And what about you?"
+    h_kisaragi "How are you finding having someone new in your home?"
+    holly "It's fine,"
+    holly "I keep to myself and we work different hours so there's never a clash for the bathroom. I can't say I've really noticed her being there to be honest."
+    h_kisaragi "So basically, everyone's fine and you've not spoken to her at all?" 
+    show h_kisaragi b_11
+    h_kisaragi "Things get easier the more you do them Holly."
+    holly "I know," 
+    holly "but I spoke to her briefly when she moved in, helped her move some boxes. It wasn't as traumatic as expected."
+    h_kisaragi "Has she tried to speak to you at all?"
+    holly "Um, yeah we chatted a bit while I helped her move things and then a bit more at dinner. She asked about my degree stuff and offered to take me climbing with her next time she goes."
+    h_kisaragi "That sounds good," 
+    show h_kisaragi b_8
+    h_kisaragi "It sounds as though she wants to get to know you."
+    show h_holly b_5 at faceleft
+    h_kisaragi "What does that mean, what're you thinking?"
+    think "Breath in Holly you can do this."
+    holly "That she's just making an effort because she's friends with Brad, she doesn't really want to know me."
+    show h_kisaragi b_1
+    h_kisaragi "Why wouldn't she want to know you?"
+    show h_holly b_9 at faceright
+    holly "Because I'm really boring and she's this gorgeous, super fit, action woman who probably doesn't need any extra friends...let alone boring, depressed, sad, lonely ones."
+    h_kisaragi "And how do you know this?"
+    holly "Because I-" 
+    show h_kisaragi b_8
+    "I stop abruptly as I realize what it is she's driving at and look up to see her smiling at me"
+    holly "I don't."
+    h_kisaragi "Exactly,"
+    show h_kisaragi b_6
+    h_kisaragi "it sounds to me like Haley has plenty of friends and an active social life. If she didn't want to know you, she wouldn't make any effort to try."
+    show h_holly b_1
+    holly "She does seem to remember me from when we met years ago..."
+    h_kisaragi "I keep telling you that you're worth knowing Holly, I certainly like to see you every week. There's absolutely no reason why Haley wouldn't feel the same way."
+    show h_holly blush b1 at faceleft
+    h_kisaragi "So, there's your homework for the week." 
+    h_kisaragi "Practice letting people get to know you a little bit more, think about how you're going to deal with the Erin situation and then next week you can tell me all about it."
+
+    scene h_asset sorrow
     #Lower xalign -> more to left
     #Lower ypos -> downwards
     placeholder
