@@ -575,7 +575,7 @@ label diguedong:
     show h_holly b_1
     holly "She does seem to remember me from when we met years ago..."
     h_kisaragi "I keep telling you that you're worth knowing Holly, I certainly like to see you every week. There's absolutely no reason why Haley wouldn't feel the same way."
-    show h_holly blush b1
+    show h_holly blush b_1
     h_kisaragi "So, there's your homework for the week." 
     h_kisaragi "Practice letting people get to know you a little bit more, think about how you're going to deal with the Erin situation and then next week you can tell me all about it."
     scene black with fade
@@ -594,8 +594,104 @@ label diguedong:
     scene black with fade
     scene bg connie kitchen day
     "On the Monday after the argument with Erin, I walked in after a long, boring day at work to find Brad, Mark, Erin and Haley sat at our kitchen table passing a bottle of whiskey between themselves."
-
-
+    outfit h_erin casual
+    show h_brad a_0 at left:
+        zoom 0.8
+    show h_haley a_1 at centerleft:
+        zoom 0.8
+    show h_mark a_0:
+        zoom 0.8
+        xalign placement_of(h_brad).xpos + (placement_of(h_haley).xpos / 1.5)
+        yalign placement_of(h_brad).ypos
+    show h_erin a_0:
+        zoom 0.8
+        xalign placement_of(h_brad).xpos - placement_of(h_haley).xpos
+        yalign placement_of(h_haley).ypos
+    brad "Holly! Come drink with us!"
+    holly "No than-" 
+    "I start, glaring at Brad over the top of Erin's head. What the fuck is she doing here!"
+    show h_haley a_12
+    h_haley "Please Holly. You look like you could use one."
+    "I begrudgingly sit down in the empty seat between Erin and Mark and Brad hands me the bottle, instructing me to take a big swig. Unfortunately, Erin chooses this moment to squeeze my knee causing me to choke on the already burning liquid."
+    show h_holly b_0 at center, faceleft with easeinleft:
+        zoom 0.8
+    h_mark "Steady on! "
+    holly "So- sorry."
+    think "I shoot Erin a confused look. She wished me dead not seven days ago and now she wants to be friends again? What the fuck?!"
+    holly "Where's Bethany?"
+    brad "Out for dinner with a friend, she'll be back later, don't panic."
+    h_erin "Jesus, it's nothing to worry about,"
+    show h_erin a_12
+    h_erin "She's got a life away from you you know."
+    "I don't acknowledge her comment, I know she's trying to get me to bite again. But her words stir some dark feelings within me that I thought I was finally making some progress in getting over..."
+    scene black with fade
+    scene bg connie kitchen day
+    "An hour later the first bottle of whiskey is gone and a second one appears from nowhere. I can already feel myself buzzing from the first bottle and take this as my cue to leave. I try to stand from the table but am quickly intercepted by Erin."
+    show h_brad a_0 at left:
+        zoom 0.8
+    show h_haley a_1 at centerleft:
+        zoom 0.8
+    show h_mark a_0:
+        zoom 0.8
+        xalign placement_of(h_brad).xpos + (placement_of(h_haley).xpos / 1.5)
+        yalign placement_of(h_brad).ypos
+    show h_erin a_0:
+        zoom 0.8
+        xalign placement_of(h_brad).xpos - placement_of(h_haley).xpos
+        yalign placement_of(h_haley).ypos
+    show h_holly b_0 at center, faceleft:
+        zoom 0.8
+    h_erin "No you don't."
+    h_erin "We're playing spin the bottle!"
+    holly "Spin the bottle? What are we, escapees from a classic teen movie?"
+    h_erin "Don't be such a spoilsport! Ok everyone! No kissing with tongue for those of us that are attached...otherwise, anything goes."
+    show h_haley a_2
+    h_haley "Won't this be the most pointless game ever though? You know, since most of us..." 
+    "she glares pointedly at Erin" 
+    h_haley "Are actually attached."
+    show h_erin a_3
+    h_erin "There's no wonder you're single with an attitude like that!"
+    show h_mark a_2
+    h_mark "Ok, ok guys. Let's just play, ok?"
+    "Satisfied that she'd won that round and sufficiently upset Haley, and with those as the only two rules, Erin took the bottle and started us off, promptly leaning across me to plant a kiss that clearly involved her tongue on Mark after her first spin."
+    think "I didn't even bother acknowledging her, I knew it was yet another ploy to get me to bite, but I was far more concerned with trying to figure out why I was willing to put up with this shit..."
+    "Time seemed to stop as we played, I'm not sure if the others felt the same way I did or not, but I couldn't wait to get out of there. I gave it another half hour before deciding that enough was enough and was half way out of my chair before I realized that Haley was staring intently at me."
+    holly "What?"
+    show h_haley a_7
+    h_haley "You need to give me a kiss Holly. Her eyes blazing into mine"
+    show h_holly blush b_4
+    "We must've been playing for a while but this is the first time she or I had spun each other."
+    holly "Guys, I'm really tired. I just want to go to bed."
+    h_mark "One more kiss Holly, then you can go to bed," 
+    show h_mark a_5
+    h_mark "Haley been waiting for this all night." 
+    "He winks at her causing her to blush...and Erin's face to drop."
+    hide h_haley
+    show h_haley blush a_6 at centerleft, faceright:
+        zoom 0.8
+    show h_erin b_1
+    holly "Ok fine."
+    hide h_holly
+    show h_holly a_14 at center, faceleft:
+        zoom 0.8
+    "I sigh, desperate to get out of this situation...and to save Haley any further embarrassment."  
+    show h_holly blush b_4 at faceleft:
+        xpos placement_of(h_haley).xpos
+        ypos placement_of(h_haley).ypos + 0.06
+    with move
+    h_mark "Wow Holly,"
+    show h_mark a_2
+    h_mark "I've seen people give their grandmas more passionate kisses."
+    show h_haley a_8
+    "I look back down at Haley to see she's even more embarrassed...and visibly hurt...which is the last thing I wanted."
+    show h_mark a_2
+    "I walk around the table and lean down to kiss her. She closes her eyes and I close the distance between us, pecking her lips lightly. I pull away quickly and notice that her eyes are still closed..."
+    scene h_asset kiss with dissolve
+    nvl clear
+    nvl_narrator "Cursing silently, I lick my lips nervously, thankful that they aren't as chapped and sore as they once were. My eyes flick across the table at Erin and I suddenly feel a bit rebellious, if she can break her own rules, why can't I? I turn back to Haley and cup her face in my hands. Leaning in slowly I lightly press my lips to hers once more and feel her mouth move against mine. I use the tip of my tongue to gently part her lips and she moans softly, her tongue reaches out to meet mine and I get a slight taste of whiskey as her arms wrap around my neck."
+    nvl_narrator "Haley's grip intensifies around my neck and my fingers slide unconsciously into her silky blonde locks, it feels as though the rest of the world slips away as we continue our kiss...that is until the sound of an angry cough from the other side of the table meets our ears."
+    nvl_narrator "I pull abruptly away from Haley and glance across the table to see Erin's face has gone from annoyed, to absolutely fuming, while Mark and Brad sport identical huge, gleeful yet surprised grins."
+    nvl_narrator "What the hell was I thinking?! Excusing myself quickly I head upstairs without speaking to anyone and lock myself in my room, the last thing I need right now is another slanging match with Erin or to sit around the table with those two idiots grinning at me."
     scene h_asset sorrow
     #Lower xalign -> more to left
     #Lower ypos -> downwards
