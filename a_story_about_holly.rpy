@@ -5,7 +5,7 @@ label scenario_a_story_about_holly:
 $ config.developer = True
 
 
-label diguedong:
+label holly_vars:
     $ h_holly.name = "Holly"
     $ sandra.name = "Mom"
     $ cassie.name = "Cassie"
@@ -55,7 +55,7 @@ label diguedong:
     Surely I shouldn't still be crying for more or less the whole hour after two fucking months?!"
     nvl_narrator "What frustrates me the most about these sessions is that we...or I, as the case may be...can't seem to pinpoint exactly how I got to feeling this way in the first place. 
     I work full time and am doing well in my part time degree, I can afford to pay my rent comfortably, 
-    although we are getting a new house mate to ease some of the financial pressure. I live with my best friend Brad and his girlfriend Bethany, who I absolutely adore. 
+    although we are getting a new house mate to ease some of the financial pressure. I live with my best friend Paul and his girlfriend Bethany, who I absolutely adore. 
     I feel so guilty that I want for nothing and yet here I am stuck in this downward spiral of despair and misery, while those a lot less fortunate than me just get on with things."
     stop music fadeout 2.0
     nvl_narrator "This train of thought carries me through the last few minutes, then out of the practice and into my car. 
@@ -65,78 +65,78 @@ label diguedong:
     scene bg connie kitchen day
     play music h_bgm_arms fadein 2.0
     show h_holly b_1 at centerleft
-    brad "Holly..Holly..HOLLY! Are you even listening?"
-    "I slowly push my thoughts away and turn to face Brad"
+    paul "Holly..Holly..HOLLY! Are you even listening?"
+    "I slowly push my thoughts away and turn to face Paul"
     show h_holly b_5
-    show h_brad a_5 at centerright
-    holly "Sorry Brad.. Did you say something?"
-    show h_brad a_3
-    brad "Christ sake Holly, did you get any sleep yesterday?"
+    show paul a_5 at centerright
+    holly "Sorry Paul.. Did you say something?"
+    show paul a_3
+    paul "Christ sake Holly, did you get any sleep yesterday?"
     think "Sleep? When was the last time i got a proper night's sleep.. high-school? Yeah probably.."
     holly "Yeah I.. I slept really well"
     think "Fuck i know he wont believe that."
-    brad "... Sure."
-    brad "Anyway, I was asking you if you wanted to go for Mark party on Friday night, since your last exam is this afternoon?"
+    paul "... Sure."
+    paul "Anyway, I was asking you if you wanted to go for Mark party on Friday night, since your last exam is this afternoon?"
     holly "Ehm.. HMM"
-    "I hesitate, I had planned on going straight to bed once my final exam was done with, the last thing i wanted to do was go to a party with Brad's football mates."
+    "I hesitate, I had planned on going straight to bed once my final exam was done with, the last thing i wanted to do was go to a party with Paul's football mates."
     "Not that i didn't like them, they were just a bit much when all they did was sleep, practice, eat, repeat."
-    show h_brad a_0
-    brad "You know ms.Steel would tell you it's good for you"
+    show paul a_0
+    paul "You know ms.Steel would tell you it's good for you"
     show h_holly a_35
     holly "hmmmmmmm..."
     think "I know he's right, ms.Steel would tell me it'd be good for me. The theme of our sessions (despite me ending up an emotional wreck each time) seemed to be shifting towards me trying to get out more and be sociable."
     holly "Is Bethany going?"
-    brad "She's not coming back until Sunday remember?"
+    paul "She's not coming back until Sunday remember?"
     "Comeon Holly for fuck's sake! You're always saying you need to get out more..."
-    brad "I heard Erin will be there"
-    show h_brad a_1
+    paul "I heard Erin will be there"
+    show paul a_1
     holly "Ok. First of all, you and I both know that it's you and ms.Steel who think I need to get out more, not me. Secondly, all i want to do is sleep, not go out and get shitfaced with Mark and CO."
     holly "And thirdly, the last thing that would make me want to go to this party is Erin fucking Dawson"
-    brad "That's not what you said last time when she stuck her tongue down your throat."
-    show h_brad a_7
+    paul "That's not what you said last time when she stuck her tongue down your throat."
+    show paul a_7
     holly "That's because I couldn't speak!"
     "I threw my pen at him"
-    brad "whatever help you sleep at night"
+    paul "whatever help you sleep at night"
     "He laughs, running his fingers through his dark hair"
-    brad "I know she got your panties wet."
-    holly "That's fucking disgusting Brad.."
+    paul "I know she got your panties wet."
+    holly "That's fucking disgusting Paul.."
     show h_holly a_2
     holly "And I'd appreciate you keeping your thoughts out of my underwear thanks."
     #change this shitty dialoge later
-    brad "Alright, alright, {q}chill sis{/q}. I just thought you could use some fun after all the sensible shit you've done this year. It can't be any fun working full time and studying for a degree.. Think about it at least."
+    paul "Alright, alright, {q}chill sis{/q}. I just thought you could use some fun after all the sensible shit you've done this year. It can't be any fun working full time and studying for a degree.. Think about it at least."
     holly "Fine! I'll see how I feel on Friday once I'm done."
     #maybe animation here?
     "His face lights up Happily as he bounces out the door like a kid at Christmas"
-    hide h_brad with easeoutright
+    hide paul with easeoutright
     show h_holly a_15
     "I sigh loudly as the door closes behind him, I wish he'd stop trying to force Erin on me, I know he's only trying to help and he's been so supportive of me recently with the counseling and everything, but Erin is definitely the last thing I want right now."
     think "Don't get me wrong, in the conventional sense of the word she's absolutely stunning. Roughly 165cm tall, long luscious blond hair, bright blue eyes and a figure she clearly works hard on. But there's just something about her I don't like, I can't even explain what it is, she just puts me off somehow."
     "I sigh again..."
     think "Thank Christ next year I'll be done with studying. A quick glance at the clock tells me I've been back from my session for roughly three hours... And I've been reading the same page for the last hour and a half... I think perhaps I need a break."
-    brad "Oh! By the way,"
-    show h_brad a_1 at right
-    "Brad sticks his head through the door."
-    brad "I think I've found a solution to our roommate problem."
+    paul "Oh! By the way,"
+    show paul a_1 at right
+    "Paul sticks his head through the door."
+    paul "I think I've found a solution to our roommate problem."
     "I was quick to retort."
     holly "if it's asking Erin to move in then you seriously need to re-evaluate that thought."
     "He wears a devious facial expression"
-    brad "Jesus, don't worry so much, i wouldn't dare do that."
+    paul "Jesus, don't worry so much, i wouldn't dare do that."
     "My eyes narrow and I raise another pen threateningly"
-    show h_brad a_5
-    brad "No."
-    brad "It's my friend Haley, from UNI. I think you've met here before? Blond, about an inch taller than your.. Ex-Amy? {i}Anyway...{/i}"
-    show h_brad a_6
-    brad "She broke up with her boyfriend and needs a place to stay. I told her about our spare room and she's really keen. She's coming for a look on Saturday."
+    show paul a_5
+    paul "No."
+    paul "It's my friend Haley, from UNI. I think you've met here before? Blond, about an inch taller than your.. Ex-Amy? {i}Anyway...{/i}"
+    show paul a_6
+    paul "She broke up with her boyfriend and needs a place to stay. I told her about our spare room and she's really keen. She's coming for a look on Saturday."
     holly "Have you mentioned this to Bethany?"
-    "I asked this knowing all to well Brad had a habit of making decisions without mentioning it to anyone else."
-    brad "Of course I have!"
+    "I asked this knowing all to well Paul had a habit of making decisions without mentioning it to anyone else."
+    paul "Of course I have!"
     show h_holly a_11
     "I gave him my {q}I don't believe this one bit{/q} look."
-    brad "She knows Holly, I swear."
+    paul "She knows Holly, I swear."
     holly "Alright, I'll chill."
-    show h_brad a_1
-    brad "Awesome, she'll be here at 11"
-    hide h_brad with easeoutright
+    show paul a_1
+    paul "Awesome, she'll be here at 11"
+    hide paul with easeoutright
     "In throw my pen onto the dinner table and lean back in my chair, cupping my hands around the back of my head."
     "I glanced at the appointment card I've placed on the table, I sigh again. ms.Steel would definitely be telling me I needed to go to this party on Friday night.. And who knows... Maybe I'll actually enjoy it once I get there."
     #--------------------------------------------------------------------------------------------------------------------------------
@@ -144,28 +144,28 @@ label diguedong:
     scene bg connie bedroom clean night
     outfit h_holly casualdark
     show h_holly a_0
-    brad "Are you ready Holly?"
+    paul "Are you ready Holly?"
     play sound sfx_knock
     show h_holly a_4
     holly "Almost!"
     show h_holly a_0
-    "I hadn't been home from my exam for two minutes before Brad started shouting at me to get ready for the party. I could sort of see where he was coming from, allowing me to get settled in the house would mean he had next to no chance of getting me out of it again."
+    "I hadn't been home from my exam for two minutes before Paul started shouting at me to get ready for the party. I could sort of see where he was coming from, allowing me to get settled in the house would mean he had next to no chance of getting me out of it again."
     show h_holly a_2
     "But I really didn't appreciate being chauffeured from room to room and being told to get ready. It was like being in the military"
     show h_holly a_0
-    "Brad also seemed particularly concerned that I get dress properly, pulling clothes out of my wardrobe and making suggestions that I put some make-up on, which was unusual. Normally he wouldn't have cared if I'd gone in a {q}onesie{/q} and slippers." 
-    "As it was, i ended up wearing a cute blouse, where Brad insisted i used my most push-up bra possible. And the only pair of black jeans I owned that made my ass look nice."
+    "Paul also seemed particularly concerned that I get dress properly, pulling clothes out of my wardrobe and making suggestions that I put some make-up on, which was unusual. Normally he wouldn't have cared if I'd gone in a {q}onesie{/q} and slippers." 
+    "As it was, i ended up wearing a cute blouse, where Paul insisted i used my most push-up bra possible. And the only pair of black jeans I owned that made my ass look nice."
     "I knew he was up to something, but I was so preoccupied with being shoved out of the house again at light speed, that I didn't have a chance to ask about it."
     #----------------------------------------------------------------------------------------------------------------------------------
     scene bg sayaka house dusk
     stop music fadeout 2.0
     show h_holly a_9 at left
-    show h_brad a_1 at Position(xpos = (placement_of(h_holly).xpos + 0.10))
+    show paul a_1 at Position(xpos = (placement_of(h_holly).xpos + 0.10))
     show h_mark a_1 at centerright
     h_mark "Hey guys! Thanks for bringing this stuff"
-    show h_brad a_7
-    brad "No problem pal"
-    "Brad slaps mark on the back with a good thud"
+    show paul a_7
+    paul "No problem pal"
+    "Paul slaps mark on the back with a good thud"
     h_mark "Hi Holly, you look great!"
     #move mark -> holly -> back
     "He kissed me on the cheek as a greeting"
@@ -183,17 +183,17 @@ label diguedong:
     show h_erin a_4 at right
     "I spin around just in time to register to my dismay, it's Erin and not Bethany, before she wraps her arms around me and kisses me full on the mouth."
     h_erin "You look gorgeous!"
-    "Brad's concern over what I was wearing becomes painfully apparent as she pulls away and looks me up and down, her eyes lingering on my chest."
+    "Paul's concern over what I was wearing becomes painfully apparent as she pulls away and looks me up and down, her eyes lingering on my chest."
     h_erin "Let me help you with those."
     "She takes the bottles out of my hands and drags two shot glasses out of the cupboard, pouring vodka into each one."
     h_erin "Drink!"
     "She holds one out for me and I begrudgingly take it."
-    brad "Awesome! We're starting the shots early!"
-    show h_brad a_1 at left
+    paul "Awesome! We're starting the shots early!"
+    show paul a_1 at left
     show h_mark a_1 at centerleft
     with easeinleft
-    #brad + mark come in
-    brad "Get another two going Erin."
+    #paul + mark come in
+    paul "Get another two going Erin."
     "She obliges and soon the four of us are on our forth one. I don't really want another after that, but people start arriving I decide {q} What the hell!{/q} and knock it back."
     think "I'm in for a hell of a long night anyway, may as well at least relax a bit."
     title "Two hours later."
@@ -209,26 +209,26 @@ label diguedong:
     think "On one hand, I haven't had sex in forever and I know Erin is defiantly interested, regardless of the amount of alcohol in her system... but on the other, I can't shake the feeling that I'll seriously regret this in the morning. And I'm a firm believer in gut-feeling"
     show h_holly blush a_8
     holly "Um, maybe.. just give me one sec.."
-    "I manage to excuse myself under the pretense of going to the bathroom and began a frantic search for Brad."
+    "I manage to excuse myself under the pretense of going to the bathroom and began a frantic search for Paul."
     scene black with fade
     scene bg sayaka kitchen night lights on
-    show h_brad a_1 at centerright
+    show paul a_1 at centerright
     show h_holly blush a_6
     "I spot him playing some sort of drinking game in the kitchen"
-    holly "Brad!!!"
-    brad "H-ho-Holly! Howr.. things?"
+    holly "Paul!!!"
+    paul "H-ho-Holly! Howr.. things?"
     holly "I'm having a moral dilemma... That I think you might be too drunk to help me solve."
-    brad "yoooor... your welecuame."
+    paul "yoooor... your welecuame."
     show h_holly a_11
     holly "I think I'm gonna head home, I'll see you in the morning."
-    show h_brad a_7
-    brad "Make.. make sure you take Erin with you."
-    #Brad -> holly.pos
+    show paul a_7
+    paul "Make.. make sure you take Erin with you."
+    #Paul -> holly.pos
     "He winks before pulling me into a hug"
-    brad "She's well fit!"
-    holly "I don't think I can Brad, It's been so long and I just don't fanc-"
+    paul "She's well fit!"
+    holly "I don't think I can Paul, It's been so long and I just don't fanc-"
     stop music fadeout 2.0
-    brad "EYY. Lis-listen, Erin is hot, you're just nervous because it's been a whole long time since you've seen another naked women, or woman naked, whatever. Take Erin home and get back into the saddle! You know she likes you."
+    paul "EYY. Lis-listen, Erin is hot, you're just nervous because it's been a whole long time since you've seen another naked women, or woman naked, whatever. Take Erin home and get back into the saddle! You know she likes you."
     show h_holly a_26
     "I can't help to smile, it took him three tries to get that sentence coherent.."
     "Perhaps he's right and I'm just nervous?? I gave up dating because I didn't feel emotionally stable enough to deal with it but I have been better lately.. and it isn't like I'm jumping into a relationship, just sex."
@@ -285,15 +285,15 @@ label diguedong:
     scene bg sadie livingroom day
     outfit h_haley casual_b
     show h_holly a_35 at left with easeinleft
-    show h_brad a_4 at right
+    show paul a_4 at right
     show h_haley b_15 at centerright
-    brad "She lives!!"
+    paul "She lives!!"
     show h_holly a_15
-    show h_brad a_0
+    show paul a_0
     holly "Very funny."
     show h_holly a_9
     "Running my fingers through my hair and taking in the long, curly brunette hair of the woman I'm supposed to be trying to encourage to take our spare room."
-    brad "Anyway, Haley this is Holly, Holly this is Haley. Although i guess if you remember each other introductions are pointless."
+    paul "Anyway, Haley this is Holly, Holly this is Haley. Although i guess if you remember each other introductions are pointless."
     show h_haley b_17 at centerright, faceleft
     "The woman turns around and I feel my breath catch in my throat, she's absolutely stunning! I can't believe I don't remember her! Her curly hair hangs casually over her shoulder framing her face and a sweeping fringe covers her brilliant hazel eyes. 
     One glance over the rest of her body is enough to see that she clearly works out."
@@ -309,14 +309,14 @@ label diguedong:
     "It's not entirely a lie, it {b}{i}is{/i}{/b} nice to see her despite not remembering that we've met."
     holly "Sorry I'm not so awake this morning, {i}someone{/i}.."
     show h_holly a_2
-    "I look pointedly across at Brad"
+    "I look pointedly across at Paul"
     holly "decided that going to a party the night before we met you was a great idea.."
     show h_haley b_17
     h_haley "No worries,"
     think "She smiles again.. God that smile is amazing..."
     h_haley "Did you have a good night?"
-    show h_brad a_7
-    brad "One of us did"
+    show paul a_7
+    paul "One of us did"
     show h_holly a_5
     holly "It was okay."
     "To further compound my embarrassment, Erin chooses this moment to come into the room wearing an old shirt of mine and not very much else."
@@ -333,14 +333,14 @@ label diguedong:
     show h_holly blush a_3
     holly "Yeah.."
     show h_holly a_3
-    brad "So, shall we give you a tour around the apartment?"
+    paul "So, shall we give you a tour around the apartment?"
     show h_haley a_14
     h_haley "That'd be great"
     scene black with fade
     nvl clear
     nvl_narrator "An hour later we've somehow managed to convince Haley to take the spare room and arranged to help her move her things in the following morning."
     nvl_narrator "Erin left soon after the scene in the living room but not before embarrassing me again by sticking her tongue down my throat as a way of saying goodbye."
-    nvl_narrator "Brad, of course, found this hilarious, but Haley took it in her stride and barely batted an eye. At least one of them could tell I was mortified!"
+    nvl_narrator "Paul, of course, found this hilarious, but Haley took it in her stride and barely batted an eye. At least one of them could tell I was mortified!"
     title "Haley moves in."
     "Haley arrived bright eyed and bushy tailed the next morning ready to move in. Thankfully I made a better second impression and was up, dressed and eating breakfast as she pulled onto the drive. I dumped my bowl and spoon in the kitchen sink and went out to meet her"
     scene bg connie apartment day
@@ -371,7 +371,7 @@ label diguedong:
     show h_haley a_12 at center
     with easeinright
 
-    h_haley "Thanks for helping with this Holly, I hope I'm not taking up to much of your time. Brad said you were studying for a degree?"
+    h_haley "Thanks for helping with this Holly, I hope I'm not taking up to much of your time. Paul said you were studying for a degree?"
     "The muscles in her forearms flex a little as she adjusts the box to a more comfortable position."
     show h_holly a_0 at centerright, faceright
     holly "Oh, I am"
@@ -390,7 +390,7 @@ label diguedong:
     show h_holly a_5
     holly "No.. it was a good joke, I'm just not with it yet today."
     show h_haley b_8
-    h_haley "Are you okay Holly? Brad said you were going through a bit of a tough time and you might be different to how i remembered you, I'm sorry if I've upset you."
+    h_haley "Are you okay Holly? Paul said you were going through a bit of a tough time and you might be different to how i remembered you, I'm sorry if I've upset you."
     holly "You remember me?"
     think "Why on earth would this goddess of a woman remember me..."
     show h_haley b_11
@@ -414,7 +414,7 @@ label diguedong:
         xalign -0.4
     "I was laid on my bed that afternoon hugging my pillow while reliving my painful and embarrassing conversation with Haley, when a familiar voice filtered up from downstairs."
     katrina "Holly!"
-    "I stick my head out of the door and a huge smile erupts on my face as I confirm that it is actually Brad's girlfriend Bethany who's shouting me."
+    "I stick my head out of the door and a huge smile erupts on my face as I confirm that it is actually Paul's girlfriend Bethany who's shouting me."
     show h_holly:
         rotate 0
     hide h_holly with easeoutright
@@ -429,17 +429,17 @@ label diguedong:
     h_bethany "How did your exam go?"
     holly "I missed you too, how was your trip? My exam was fine thanks."
     h_bethany "It wa-"
-    brad "I always knew I'd come home one day and find you two together."
+    paul "I always knew I'd come home one day and find you two together."
     show h_bethany at centerleft
     show h_holly at left
     with move
-    show h_brad a_1 at centerright
+    show paul a_1 at centerright
     show h_haley a_12 at right, faceleft
     with easeinright
     show h_bethany a_9
     h_bethany "He says, whilst walking through the door with a gorgeous brunette woman I don't know."
     "For extra effect she brushes my hair away from my face and kisses my forehead."
-    brad "Oh shit, sorry babe. This is Haley, my friend from UNI and the answer to our roommate problem. Haley, this is my girl Bethany."
+    paul "Oh shit, sorry babe. This is Haley, my friend from UNI and the answer to our roommate problem. Haley, this is my girl Bethany."
     show h_bethany a_3
     h_bethany "Hi Haley, I hope you know what you're in for, taking care of these two."
     h_haley "It's been ok so far." 
@@ -449,12 +449,12 @@ label diguedong:
     "I say to the floor as I wonder exactly how much Tommy's told her about my situation at the moment."
     h_bethany "Give it a few days and you'll be tearing your hair out."
     "I envy Bethany so much sometimes, she's so free and easy around new people while I'm an uptight, nervous wreck."
-    brad "We're not that bad."
+    paul "We're not that bad."
     h_bethany "That's what you think." 
     h_bethany "Hi baby. What're we doing for dinner?"
-    brad "You fancy going out? Give us a chance to bond and all that crap."
+    paul "You fancy going out? Give us a chance to bond and all that crap."
     h_bethany "That'd be great." 
-    brad "We should ask Erin to come too...don't you think Holly?"
+    paul "We should ask Erin to come too...don't you think Holly?"
     show h_holly b_4
     show h_bethany a_8
     "I could've died on the spot."
@@ -463,7 +463,7 @@ label diguedong:
     holly "I'll tell you later." 
     "I mumble, deliberately avoiding her eyes."
     "I'll text her and let her know where to meet us then." 
-    "Brad continues, using my lack of an answer as a yes and pulling out his phone, once again completely oblivious to the situation around him."
+    "Paul continues, using my lack of an answer as a yes and pulling out his phone, once again completely oblivious to the situation around him."
     "Bethany rounds on him a fraction of a second later shooting daggers. I use this as an out and escape back upstairs, followed closely by Haley."
     hide h_haley
     hide h_holly
@@ -497,7 +497,7 @@ label diguedong:
     nvl_narrator "The evening was rounded off nicely by her leaving just before we did, skipping out on her share of the bill."
     scene black with fade
     scene bg connie bedroom clean night
-    "After we came home Haley went straight to her room, Bethany and Brad went into an argument in the kitchen about me and Erin, I knew they'd both acted with my best interests at heart, but I fell asleep wishing that they'd all just let me suffer alone in my bubble until I figured things out. I hated that I'd caused so much trouble."
+    "After we came home Haley went straight to her room, Bethany and Paul went into an argument in the kitchen about me and Erin, I knew they'd both acted with my best interests at heart, but I fell asleep wishing that they'd all just let me suffer alone in my bubble until I figured things out. I hated that I'd caused so much trouble."
     title "Session"
     scene bg corporate lobby small
     play music h_bgm_issues
@@ -534,14 +534,14 @@ label diguedong:
     h_kisaragi "Do you think that's healthy?"
     holly "Definitely not."
     "I reply quickly, trying to find the words she wants to hear before she asks me any further questions on the topic"
-    holly "But there's only me that can get myself out of it and fix the situation...and I need to tell Brad to back off"
+    holly "But there's only me that can get myself out of it and fix the situation...and I need to tell Paul to back off"
     show h_kisaragi b_4
     h_kisaragi "And what is it important to remember?"
     holly "To give myself a break...and that change doesn't happen overnight."
     show h_kisaragi b_6
     h_kisaragi "Good." 
     h_kisaragi "Now, let's move on to more positive conversation. How's Haley working out as a new house mate, is she fitting in well with the three of you?"
-    holly "Well, she's a friend of Brad's from University and I think they've lived together before, so he's fine, then Bethany gets on with everyone so she's fine too."
+    holly "Well, she's a friend of Paul's from University and I think they've lived together before, so he's fine, then Bethany gets on with everyone so she's fine too."
     h_kisaragi "And what about you?"
     h_kisaragi "How are you finding having someone new in your home?"
     holly "It's fine,"
@@ -559,7 +559,7 @@ label diguedong:
     show h_holly b_5 at faceleft
     h_kisaragi "What does that mean, what're you thinking?"
     think "Breath in Holly you can do this."
-    holly "That she's just making an effort because she's friends with Brad, she doesn't really want to know me."
+    holly "That she's just making an effort because she's friends with Paul, she doesn't really want to know me."
     show h_kisaragi b_1
     h_kisaragi "Why wouldn't she want to know you?"
     show h_holly b_9 at faceright
@@ -582,9 +582,9 @@ label diguedong:
     #Make this part more intressting, add images.
     nvl clear
     nvl_narrator "Following ms.Steel's advice, I made much more of an effort to let people in, not just over the week between that initial session and the next, but over the next few months as well. And not just with Haley, with everyone else too."
-    nvl_narrator "It was almost impossible at first, but gradually I managed to speak more and more and volunteered information about myself without other people needing to prize it out of me. It had definitely made life at home better, Bethany and Brad had known me long enough that they knew what I was like, but for Haley I must have seemed like a completely different person to the one she met back in June."
+    nvl_narrator "It was almost impossible at first, but gradually I managed to speak more and more and volunteered information about myself without other people needing to prize it out of me. It had definitely made life at home better, Bethany and Paul had known me long enough that they knew what I was like, but for Haley I must have seemed like a completely different person to the one she met back in June."
     nvl_narrator "For the first time in years I actually enjoyed Christmas. Normally the thought of so much social activity filled me with nothing but anxiety and I spent a considerable amount of time wishing the whole festive period away."
-    nvl_narrator "But this year it was just...well...fun. Our {q}House Mates Only{/q} Christmas party was great and really set the whole holiday up, it was nice for there to be four of us. Haley had slotted in perfectly with us and it was a welcome change to have someone on my team while playing games and someone to sit up with once Bethany and Brad went to bed. My family even commented on how much better I seemed during the few days I spent with them."
+    nvl_narrator "But this year it was just...well...fun. Our {q}House Mates Only{/q} Christmas party was great and really set the whole holiday up, it was nice for there to be four of us. Haley had slotted in perfectly with us and it was a welcome change to have someone on my team while playing games and someone to sit up with once Bethany and Paul went to bed. My family even commented on how much better I seemed during the few days I spent with them."
     nvl_narrator "The only problem was Erin."
     nvl clear
     nvl_narrator "I had tried for a while to give her the benefit of the doubt and to open up around her...much to Bethany's disgust...and had even ventured as far as telling her about my counseling sessions, but she just wasn't interested. She only showed an interest when Haley was around."
@@ -593,33 +593,33 @@ label diguedong:
     nvl_narrator "I saw red at that point and for the first time in six months bit back. It didn't go down well to say the least. I left the house to a torrent of verbal abuse, which ended in her telling me she wished I was dead, and then spent the evening in Bethany's arms while she calmed me down and wiped the angry tears from my face."
     scene black with fade
     scene bg connie kitchen day
-    "On the Monday after the argument with Erin, I walked in after a long, boring day at work to find Brad, Mark, Erin and Haley sat at our kitchen table passing a bottle of whiskey between themselves."
+    "On the Monday after the argument with Erin, I walked in after a long, boring day at work to find Paul, Mark, Erin and Haley sat at our kitchen table passing a bottle of whiskey between themselves."
     outfit h_erin casual
-    show h_brad a_0 at left:
+    show paul a_0 at left:
         zoom 0.8
     show h_haley a_1 at centerleft:
         zoom 0.8
     show h_mark a_0:
         zoom 0.8
-        xalign placement_of(h_brad).xpos + (placement_of(h_haley).xpos / 1.5)
-        yalign placement_of(h_brad).ypos
+        xalign placement_of(paul).xpos + (placement_of(h_haley).xpos / 1.5)
+        yalign placement_of(paul).ypos
     show h_erin a_0:
         zoom 0.8
-        xalign placement_of(h_brad).xpos - placement_of(h_haley).xpos
+        xalign placement_of(paul).xpos - placement_of(h_haley).xpos
         yalign placement_of(h_haley).ypos
-    brad "Holly! Come drink with us!"
+    paul "Holly! Come drink with us!"
     holly "No than-" 
-    "I start, glaring at Brad over the top of Erin's head. What the fuck is she doing here!"
+    "I start, glaring at Paul over the top of Erin's head. What the fuck is she doing here!"
     show h_haley a_12
     h_haley "Please Holly. You look like you could use one."
-    "I begrudgingly sit down in the empty seat between Erin and Mark and Brad hands me the bottle, instructing me to take a big swig. Unfortunately, Erin chooses this moment to squeeze my knee causing me to choke on the already burning liquid."
+    "I begrudgingly sit down in the empty seat between Erin and Mark and Paul hands me the bottle, instructing me to take a big swig. Unfortunately, Erin chooses this moment to squeeze my knee causing me to choke on the already burning liquid."
     show h_holly b_0 at center, faceleft with easeinleft:
         zoom 0.8
     h_mark "Steady on! "
     holly "So- sorry."
     think "I shoot Erin a confused look. She wished me dead not seven days ago and now she wants to be friends again? What the fuck?!"
     holly "Where's Bethany?"
-    brad "Out for dinner with a friend, she'll be back later, don't panic."
+    paul "Out for dinner with a friend, she'll be back later, don't panic."
     h_erin "Jesus, it's nothing to worry about,"
     show h_erin a_12
     h_erin "She's got a life away from you you know."
@@ -627,17 +627,17 @@ label diguedong:
     scene black with fade
     scene bg connie kitchen day
     "An hour later the first bottle of whiskey is gone and a second one appears from nowhere. I can already feel myself buzzing from the first bottle and take this as my cue to leave. I try to stand from the table but am quickly intercepted by Erin."
-    show h_brad a_0 at left:
+    show paul a_0 at left:
         zoom 0.8
     show h_haley a_1 at centerleft:
         zoom 0.8
     show h_mark a_0:
         zoom 0.8
-        xalign placement_of(h_brad).xpos + (placement_of(h_haley).xpos / 1.5)
-        yalign placement_of(h_brad).ypos
+        xalign placement_of(paul).xpos + (placement_of(h_haley).xpos / 1.5)
+        yalign placement_of(paul).ypos
     show h_erin a_0:
         zoom 0.8
-        xalign placement_of(h_brad).xpos - placement_of(h_haley).xpos
+        xalign placement_of(paul).xpos - placement_of(h_haley).xpos
         yalign placement_of(h_haley).ypos
     show h_holly b_0 at center, faceleft:
         zoom 0.8
@@ -689,10 +689,127 @@ label diguedong:
     scene h_asset kiss with dissolve
     nvl clear
     nvl_narrator "Cursing silently, I lick my lips nervously, thankful that they aren't as chapped and sore as they once were. My eyes flick across the table at Erin and I suddenly feel a bit rebellious, if she can break her own rules, why can't I? I turn back to Haley and cup her face in my hands. Leaning in slowly I lightly press my lips to hers once more and feel her mouth move against mine. I use the tip of my tongue to gently part her lips and she moans softly, her tongue reaches out to meet mine and I get a slight taste of whiskey as her arms wrap around my neck."
-    nvl_narrator "Haley's grip intensifies around my neck and my fingers slide unconsciously into her silky blonde locks, it feels as though the rest of the world slips away as we continue our kiss...that is until the sound of an angry cough from the other side of the table meets our ears."
-    nvl_narrator "I pull abruptly away from Haley and glance across the table to see Erin's face has gone from annoyed, to absolutely fuming, while Mark and Brad sport identical huge, gleeful yet surprised grins."
+    nvl_narrator "Haley's grip intensifies around my neck and my fingers slide unconsciously into her silky brunette locks, it feels as though the rest of the world slips away as we continue our kiss...that is until the sound of an angry cough from the other side of the table meets our ears."
+    nvl_narrator "I pull abruptly away from Haley and glance across the table to see Erin's face has gone from annoyed, to absolutely fuming, while Mark and Paul sport identical huge, gleeful yet surprised grins."
     nvl_narrator "What the hell was I thinking?! Excusing myself quickly I head upstairs without speaking to anyone and lock myself in my room, the last thing I need right now is another slanging match with Erin or to sit around the table with those two idiots grinning at me."
+    hide h_holly easeoutright
+    outfit h_haley gym
+    scene black with fade
+    scene bg sadie livingroom day
+    show h_haley a_15 at centerleft, faceright
+    show h_holly b_0 at centerright, faceleft with easeinright
+    "I slope through the door at home on Friday and slink down the hall to the kitchen with the intention of repeating my routine and grabbing some food before retiring to the comfort of my room...only to be met by Haley coming the other way."
+    h_haley "Hi Holly, you okay?"
+    show h_holly b_2
+    holly "Um, yeah.."
+    h_haley "I've hardly seen you since Monday night, busy week?"
+    h_holly "Kind of, I've had a steady stream of stuff to do." 
+    "I shuffle my feet awkwardly and try not to stare too hard at her legs in her running shorts."
+    h_haley "Ok..." 
+    show h_haley a_2
+    h_haley "Are you sure things are ok Holly? You haven't answered my texts and you're avoiding us all. Please don't tell me you're still embarrassed about that kiss, it was just a game...a great kiss...but just a game...and Erin can go fuck herself if she's said anything horrible to you! An-"
+    show h_holly b_5 at centerright:
+        ease 0.15 ypos (placement_of(h_holly).ypos - 0.05)
+        ypos placement_of(h_holly).ypos
+
+    "She stops suddenly and looks at me. At the mention of Erin I felt myself recoil and clearly she's seen it too."
+    show h_haley a_7
+    h_haley "Am I right on the money?"
+    show h_holly b_4
+    holly "... Yes."
+    show h_haley blush a_7:
+        ease 0.5 xpos placement_of(h_holly).xpos - 0.10
+        xpos placement_of(h_holly).xpos - 0.10
+    "She steps closer to me and wraps her arms around me. Her embrace is surprisingly soft; with all the exercise she does and the whole army thing, I was expecting it to be a bit rougher around the edges."
+    holly "You're right about everything." 
+    holly "Well, maybe not Erin, I haven't looked at any of my messages but I can almost guarantee there'll be something in there from her."
+    show h_haley a_5:
+        ease 0.3 xpos placement_of(h_holly).xpos - 0.25
+        xpos placement_of(h_holly).xpos - 0.25
+    "You want me to look through them with you?"
+    show h_holly b_1
+    holly "Thanks, but I can handle it. I think actually it might be time to grow a pair and tell her to fuck off."
+    h_haley "That- that sounds like a really sensible idea. If you need me though, you know where I am."
+    "I nod and give her a small smile which she returns as she plants a kiss on my cheek before heading out, leaving me to continue getting some dinner sorted."
+    hide h_haley with easeoutright
+    hide h_holly with easeoutleft
+    scene black with fade
+    scene bg connie kitchen day
+    show h_holly b_0 at faceright:
+        zoom 0.8
+        ypos 0.3
+        xalign 0
+
+    "Twenty minutes later I find myself sat in the kitchen finishing off my dinner while reliving my conversation with Haley, how is it that she's known me for like six months and she knows me so well? One of my issues is not letting people get close, what makes her so special that she can read me like a book?"
+    "A knock on the front door draws me out of my trance" 
+    hide h_holly with easeoutright
+    scene bg sadie livingroom day
+    show h_holly b_0 at centerright, faceright with easeinleft
+    show dominic b_0 at right:
+    dominic "Hi, Haley around?" 
+    "His voice is gruff and strained, as though he's spent a lot of time screaming at someone recently."
+    holly "She might be," 
+    "Instantly i disliked this new person."
+    "Depends on who you are?"
+    h_haley "It's alright Holly,"
+    outfit h_haley casual_b
+    show h_haley a_4 at left, faceright with easeinleft
+    h_haley "This is Dominic."
+    holly "Your ex?"
+    show dominic a_2
+    dominic "Her current boyfriend." 
+    "He strode up to Haley and plants a kiss on her lips"
+    show dominic a_0 at left with move
+    show h_holly b_0 at centerright, faceleft
+    dominic "isn't that right babe?"
+    show h_haley a_5
+    h_haley "Um, yeah."
+    "He drags her up the stairs towards her room leaving me standing alone next to the open front door."
+    hide h_haley
+    hide dominic
+    with easeoutleft
+    show h_holly b_4
+    outfit h_bethany dress
+    "I pause for a bewildered few seconds before hearing more footsteps coming up the drive."
+    show h_bethany a_0 at right
+    show paul a_0 at center
+    with easeinright
+    paul "Why hello there Holly."
+    h_bethany "What's wrong with you?"
+    holly "I just met Dominic."
+    h_bethany "Want a drink?"
+    show h_holly b_1
+    holly "I think i need one.. yeah."
+    scene bg connie kitchen day with dissolve
+    "Once in the kitchen Bethany rounds on me almost immediately."
+    show h_bethany a_8 at left
+    show holly b_0 at centerleft
+    with easeinright
+    h_bethany "So, Dominic, what do you think?"
+    holly "Not a lot to be honest, although the conversation was brie-"
+    h_bethany "Brief is long enough. Now, what's your plan?"
+    holly "My- my plan?"
+    h_bethany "To break them up." 
+    show h_bethany a_11
+    "She raises her eyebrows at me as though there's something I'm seriously missing."
+    holly "Bethany, I've got no idea what you're talking about. Why would I have a plan to break them up?"
+    h_bethany "Now I'm confused...Haley said you guys kissed?"
+    holly "During a drunken game of spin the bottle we did," 
+    show h_holly b_1
+    "I laugh"
+    holly "it was nothing serious."
+    h_bethany "Spin the bottle? Which classic teen movie did you escape from?"
+    holly "That's exactly what I said."
+    show h_holly b_10
+    "I laugh even harder."
+
+
+    #-----------------------------------------------------------------------------------------------------------------
     scene h_asset sorrow
+    scene bg connie bedroom clean night
+    scene bg connie kitchen day
+    scene bg sadie livingroom day
+
     #Lower xalign -> more to left
     #Lower ypos -> downwards
     placeholder
